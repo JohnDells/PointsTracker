@@ -1,0 +1,4 @@
+PointsTrackerAndroid.HistoryPage;pointstrackerandroid.HistoryPage
+PointsTrackerAndroid.FoodEntryListAdapter;pointstrackerandroid.FoodEntryListAdapter
+PointsTrackerAndroid.MainPage;pointstrackerandroid.MainPage
+PointsTrackerAndroid.SettingsPage;pointstrackerandroid.SettingsPage

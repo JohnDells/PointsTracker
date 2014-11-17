@@ -1,0 +1,14 @@
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\bin\iPhoneSimulator\Debug\PointsTrackerIOS.exe
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\bin\iPhoneSimulator\Debug\PointsTrackerIOS.pdb
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.plist
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\Info.plist
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\vXZ-lx-hvc-view-kh9-bI-dsS.nib
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\Default-568h@2x.png
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\PointsTrackerIOS.exe
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\PointsTrackerIOS.pdb
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\PointsTrackerIOS.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-22.nib
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\42-view-43.nib
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-42.nib
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\58-view-59.nib
+C:\Users\John\Documents\Visual Studio 2013\Projects\PointsTracker\PointsTrackerIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-58.nib

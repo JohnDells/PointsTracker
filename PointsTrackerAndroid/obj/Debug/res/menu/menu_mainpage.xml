@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/menu_history" android:title="History" android:showAsAction="ifRoom|withText" /><item android:id="@+id/menu_settings" android:title="Settings" android:showAsAction="ifRoom|withText" /></menu>
