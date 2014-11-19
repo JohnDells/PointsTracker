@@ -20,6 +20,8 @@ namespace PointsTrackerIOS
             base.ViewDidAppear(animated);
 
             btnSave.TouchUpInside += btnSave_TouchUpInside;
+
+			LoadScreen ();
         }
 
         void btnSave_TouchUpInside(object sender, EventArgs e)
@@ -28,8 +30,14 @@ namespace PointsTrackerIOS
             if (maxPoints != null)
             {
                 _PointsTrackerManager.SetMaxPoints((int)maxPoints);
-                this.DismissViewController(true, null);
+				NavigationController.PopViewController (true);
             }
         }
+
+		private void LoadScreen()
+		{
+			var maxPoints = _PointsTrackerManager.GetMaxPoints ();
+			txtMaxPoints.Text = maxPoints.ToString ();
+		}
 	}
 }

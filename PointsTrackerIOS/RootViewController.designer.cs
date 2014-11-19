@@ -16,6 +16,10 @@ namespace PointsTrackerIOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton btnAdd { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UIButton btnHistory { get; set; }
 
 		[Outlet]
@@ -36,6 +40,10 @@ namespace PointsTrackerIOS
 
 		void ReleaseDesignerOutlets ()
 		{
+			if (btnAdd != null) {
+				btnAdd.Dispose ();
+				btnAdd = null;
+			}
 			if (btnHistory != null) {
 				btnHistory.Dispose ();
 				btnHistory = null;

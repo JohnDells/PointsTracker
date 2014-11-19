@@ -32,7 +32,9 @@ namespace PointsTracker
 
         public int GetPointsLeftToday()
         {
-            return GetMaxPoints() - GetPointsUsedToday();
+			var maxPoints = GetMaxPoints ();
+			var pointsUsedToday = GetPointsUsedToday ();
+			return maxPoints - pointsUsedToday;
         }
 
         public void AddPoints(FoodEntry foodEntry)

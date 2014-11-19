@@ -30,7 +30,8 @@ namespace PointsTrackerIOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            Refresh();
+
+			btnAdd.TouchUpInside += btnAdd_TouchUpInside;
         }
 
         private void Refresh()
@@ -40,9 +41,23 @@ namespace PointsTrackerIOS
             txtFoodPoints.Text = "";
         }
 
+        private void btnAdd_TouchUpInside (object sender, EventArgs e)
+        {
+			var foodName = txtFoodName.Text;
+			var foodPoints = txtFoodPoints.Text.ToSafeNullableInt ();
+
+			if (!string.IsNullOrEmpty (foodName) && foodPoints != null)
+			{
+				var foodEntry = new FoodEntry () { Points = (int)foodPoints, Name = foodName, Added = DateTime.Now };
+				_PointsTrackerManager.AddPoints (foodEntry);
+				Refresh ();
+			}
+        }
+
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
+			Refresh();
         }
 
         public override void ViewDidAppear(bool animated)
